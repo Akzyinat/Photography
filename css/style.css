@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 1349px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 1349px;
+    height: 600px;
+    background-image: url(../img/tZYHsDqaiB8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.logo img{
+    width: 200px;
+    margin: 0px 60px;
+    padding: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    margin-left: 350px;
+}
+.menu li{
+    padding: 30px 25px;
+    padding-top: 40px;
+}
+.button{
+    margin-top: 8px;
+}
+.button a{
+   color: white;
+   border: white solid 1px;
+   border-radius: 30px;
+   padding: 10px 20px;
+}
+.info{
+    /* width: 400px; */
+    margin: 0 auto;
+    /* height: 300px;  */
+    /* margin-left: 500px; */
+    margin-top: 100px;
+    text-align: center;
+}
+.info p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.info h1{
+    color: white;
+    font-size: 50px;
+    /* position: absolute; */
+    font-family: 'Montserrat', sans-serif;
+    /* left: 300px;
+    top: 250px; */
+}
+.info_text1{
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    /* margin-left: 40px; */
+    margin-top: 20px;
+}
+.text1{
+    width: 120px;
+    background-color: rgba(7, 6, 6, 0.548);
+    color: white;
+    align-items: center; 
+    font-size: 15px; 
+    padding: 15px 0px;  
+    border-left: 2px solid #000000;
+    /* border-right: 2px solid #000000; */
+}
+.info1{
+    /* width: 900px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 170px 0px;
+    background: linear-gradient(rgba(153, 153, 153, 0.52), #050505fa, #000000f5);
+    /* background-color: lightcoral; */
+    /* padding: 0px 100px; */
+}
+.text2{
+    /* width: 400px; */
+    color: white;
+    border-bottom: 4px solid #ffffff;
+    padding: 15px 0px;
+    transition: 2s;
+}
+.text2:hover{
+    color: black;
+    border-bottom: 4px solid #000000;
+    transform: scale(1.2);
+}
+.text2 p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    background-color: black;
+    color: white;
+    width: 1349px;
+    height: 700px;
+}
+.content p{
+    padding-left: 500px;
+    padding-top: 60px;
+}
+.button2{
+    margin-left: 630px;
+    margin-top: 30px;
+}
+.button2 a{
+    border: white solid 1px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.content_card{   
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1{
+    width: 270px;
+    height: 340px;
+    background-image: url(../img/australia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 2s;
+}
+.card-1:hover{
+    transform: scale(1.2);
+}
+.card-2{
+    width: 270px;
+    height: 340px;
+    background-image: url(../img/great-brit.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 2s;
+}
+.card-2:hover{
+    transform: scale(1.2);
+}
+.card-3{
+    width: 270px;
+    height: 340px;
+    background-image: url(../img/liberia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 2s;
+}
+.card-3:hover{
+    transform: scale(1.2);
+}
+.card-4{
+    width: 270px;
+    height: 340px;
+    background-image: url(../img/madagaskar.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 2s;
+}
+.card-4:hover{
+    transform: scale(1.2);
+}
+.text5{
+    text-align: center;
+    margin-top: 280px;    
+}
+.text5 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
